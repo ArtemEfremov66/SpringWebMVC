@@ -1,0 +1,12 @@
+GET http://localhost:9998/api/posts/123
+Accept: application/json
+
+###
+POST http://localhost:9998/api/posts
+Content-Type: application/json
+
+{
+  "id": 0,
+  "content": "Last Post"
+}
+
